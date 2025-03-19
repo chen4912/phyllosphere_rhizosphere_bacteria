@@ -1,0 +1,2 @@
+# phyllosphere_rhizosphere_bacteria
+Decoupling responses of phyllosphere and rhizosphere bacterial communities to spatiotemporal environmental changes
