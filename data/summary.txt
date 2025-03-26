@@ -1,0 +1,109 @@
+The following data were included in the table named FIELD SURVEY for data analysis of the field survey experiment, including 244 paired inter-root-interleaf bacterial samples from 18 elevation sites, five tiem points, and three species.
+
+sheet name: group	Grouping files of microbial samples in field survey experiment
+ID	sample ID
+code	sample ID
+elevation	18 sites；continuous variable
+site	18 sites；factor variable
+time	5 sampling months；continuous variable
+species	3 species：F. nilgerrensis, P.asiatica and T. repens
+compartment	2 compartment：phyllosphere, rhizosphere
+month	5 sample months；factor variable
+pair	paired of phyllosphere and rhizosphere
+read(shared)	reads of shared ASVs
+ASVs of total	richness of entire ASVs
+ASVs_shared	richness of shared ASVs
+ASVs	ratio of richness of shared ASVs and richness of entire ASVs
+read of shared	ratio of reads of shared ASVs and reads of entire ASVs
+pH	soil pH
+STN	soil total nitrogen (%)
+LTN	leaf total nitrogen (%)
+ST	soil temperature (℃)
+SM	soil moisture （%）
+AT	air temperature(℃)
+AM	air moisture（%）
+SLA	specific leaf area （g/cm²）
+Chl	chlorophyll content （g/mg）
+LS	leaf area（cm²）
+
+sheet name: height_june	Elevation pattern of plant height data in field survey experiments（Fig S2）
+ID	serial number
+elevation	18 sites；continuous variable
+height	plant height
+species	3 species：F. nilgerrensis, P.asiatica and T. repens
+
+sheet name: Tax	Taxonomy of entire ASVs
+
+
+sheet name: PERMANOVA	PERMANOVA analysis of environment change and plant trait with phyllosphere and rhizosphere bacterial across three species (Fig2d)
+ID	serial number
+variable	environment factors; see sheet: group
+R2	explained variation in PERMANOVA analysis
+p_value	p-value in PERMANOVA analysis
+species	3 species：F. nilgerrensis, P.asiatica and T. repens
+compartment	2 compartment：phyllosphere, rhizosphere
+factor	environment factors: environment, plant
+
+
+sheet name: Tables	Tables in field survey experiment (Table S3-Table S7)
+
+
+
+The following data were included in the table named FIELD TRANSLOCTION for data analysis of the field translocation experiment, including 56 paired phyllosphere-rhizosphere bacterial samples from 3 elevation sites, three species, in this, 6 pair samples form June, 50 pair samples from August.
+sheet name: group	Grouping files of microbial samples in field transplantation experiment
+ID	sample ID
+Time	Times of the start and end of field transplantation tests (start in June; end in August)
+Site	3 sites；factor variable: high, middle, low (H, M, L)
+Popu	3 plant population；factor variable: high, middle, low (H, M, L)
+Soil	3 soil；factor variable: high, middle, low (H, M, L)
+Type	Integrate soil-site, the samples of the initial time are distinguished by 'C'.
+Group	Integrate soil-plant population, 0: the samples of the initial time;1: the same source of soil and plant populations; 2: the differ source of soil and plant populations
+Species	3 species：F. nilgerrensis, P.asiatica and T. repens
+Compartment	2 compartment：phyllosphere, rhizosphere
+read(shared)	reads of shared ASVs
+ASVs of total	richness of entire ASVs
+ASVs_shared	richness of shared ASVs
+ASVs	ratio of richness of shared ASVs and richness of entire ASVs
+read of shared	ratio of reads of shared ASVs and reads of entire ASVs
+pair	paired of phyllosphere and rhizosphere
+
+
+sheet name: Tax	Taxonomy of entire ASVs
+
+sheet name: plant	plant performance in field transplantation experiment
+code	sample ID
+Site	3 sites；factor variable: high, middle, low (H, M, L)
+Popu	3 plant population；factor variable: high, middle, low (H, M, L)
+Soil	3 soil；factor variable: high, middle, low (H, M, L)
+Elevational	Elevational difference (Elevation difference in plant transplantation at different points)
+Species	3 species：F. nilgerrensis, P.asiatica and T. repens
+heightA	Initial plant height in June
+heightB	Final plant height in August
+GR	Plant growth rate: (heightB-heightA)/60 day
+condition	replicates
+distance	pair of phyllosphere and rhizosphere bacterial community dissimilarity
+lnHome_CK	relative growth rate: Response logarithm of growth rates of original and transplanted plants
+
+sheet name: source_sink_soil   Feast result of rhizosphere bacterial
+Site	3 sites；factor variable: high middle low
+Popu	3 plant population；factor variable: high middle low
+Soil	3 soil；factor variable: high middle low
+Species	3 species：F. nilgerrensis, P.asiatica and T. repens
+distance	pair of phyllosphere and rhizosphere bacterial
+Proportion	Proportion taxa from groups
+Group	rhizosphere microbial source: from origin site (origin_soil), from local site (local_site) and unknown
+
+
+sheet name: source_sink_leaf	Feast result of phyllosphere bacterial			
+Site	3 sites；factor variable: high middle low			
+Popu	3 plant population；factor variable: high middle low			
+Soil	3 soil；factor variable: high middle low			
+Species	3 species：F. nilgerrensis, P.asiatica and T. repens			
+distance	pair of phyllosphere and rhizosphere bacterial			
+Proportion	Proportion taxa from groups			
+Group	phyllosphere microbial source: from leaf of local site (local_leaf), from soil of origin site (origin_soil), from soil of local site (local_soil) and unknown			
+
+sheet name: tables	Tables in field transplantation experiment (Table S8-Table S9)
+
+
+
